@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns lang="en">
+	<pattern facet='pattern.sample' value='{0.lex}-{2.lex}'>
+		<w id='0' pos="VB">
+			<w id='2' relation="dobj" />
+		</w>
+	</pattern>
+</patterns>
