@@ -24,25 +24,33 @@
 <!-- bootstrap 5 -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <style type="text/css" >
+
 .table-wrap {
   width: 100%;
   height: 800px;
   overflow-y: auto;
 }
-div{
-	margin-bottom: 8px;
-}
 </style>
 </head>
 <body>
 
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="../">UP</a></li>
+    <li class="breadcrumb-item active" aria-current="page">here</li>
+  </ol>
+</nav>
+
+
 <h1>NHTSA Compliants NISSAN, November-2021</h1>
 
 <div id="stats">
-<h2>Statistics</h2><h3>Number of compliants: </h3><div>244</div><h3>Count of STATE:</h3><div>PA(24), CA(21), FL(17), IL(16), NC(14), NY(12), OH(12), TX(10), VA(9), GA(8), WV(8), IN(8), AZ(8), NH(8), SC(7), TN(5), NJ(5), IA(4), LA(4), NV(3), WA(3), MD(3), MS(3), AL(3), CO(3), AR(3), RI(3), WI(2), UT(2), MN(2), MO(2), KS(2), KY(2), CT(2), NM(2), HI(1), MA(1), ME(1), OK(1), </div><h3>Count of COMPDESC: </h3><div class='overflow-auto' style='height:320px;'><table class="table table-hover"><thead><tr><th>COMPDESC</th><th>Count</th></tr></thead><tbody><tr><td>POWER TRAIN</td><td>43</td></tr><tr><td>ELECTRICAL SYSTEM</td><td>30</td></tr><tr><td>UNKNOWN OR OTHER</td><td>20</td></tr><tr><td>ENGINE</td><td>17</td></tr><tr><td>AIR BAGS</td><td>15</td></tr><tr><td>SUSPENSION</td><td>13</td></tr><tr><td>FORWARD COLLISION AVOIDANCE: AUTOMATIC EMERGENCY BRAKING</td><td>13</td></tr><tr><td>SERVICE BRAKES</td><td>11</td></tr><tr><td>STEERING</td><td>10</td></tr><tr><td>EXTERIOR LIGHTING</td><td>10</td></tr><tr><td>FUEL/PROPULSION SYSTEM</td><td>9</td></tr><tr><td>FORWARD COLLISION AVOIDANCE: WARNINGS</td><td>7</td></tr><tr><td>VEHICLE SPEED CONTROL</td><td>6</td></tr><tr><td>BACK OVER PREVENTION: CAMERA SYSTEM</td><td>4</td></tr><tr><td>STRUCTURE:BODY</td><td>4</td></tr><tr><td>SEAT BELTS</td><td>3</td></tr><tr><td>SEATS</td><td>3</td></tr><tr><td>STRUCTURE:INTERIOR PANELS:DASHBOARD</td><td>3</td></tr><tr><td>FORWARD COLLISION AVOIDANCE: ADAPTIVE CRUISE CONTROL</td><td>2</td></tr><tr><td>VISIBILITY/WIPER</td><td>2</td></tr><tr><td>ELECTRICAL SYSTEM:12V/24V/48V BATTERY</td><td>1</td></tr><tr><td>SUSPENSION:SUBFRAME/MOUNTING BRACKET</td><td>1</td></tr><tr><td>POWER TRAIN:AUTOMATIC TRANSMISSION:TORQUE CONVERTER</td><td>1</td></tr><tr><td>BACK OVER PREVENTION</td><td>1</td></tr><tr><td>LATCHES/LOCKS/LINKAGES</td><td>1</td></tr><tr><td>ELECTRICAL SYSTEM:IGNITION:ANTI-THEFT:CONTROL MODULE</td><td>1</td></tr><tr><td>AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION</td><td>1</td></tr><tr><td>FUEL SYSTEM, GASOLINE</td><td>1</td></tr><tr><td>AIR BAGS:FRONTAL:DRIVER CLOCKSPRING/SPIRAL CASSETTE</td><td>1</td></tr><tr><td>SUSPENSION:MULTIPLE AXLE</td><td>1</td></tr><tr><td>FUEL SYSTEM, OTHER:DELIVERY:FUEL PUMP</td><td>1</td></tr><tr><td>VISIBILITY:DEFROSTER/DEFOGGER/HVAC SYSTEM</td><td>1</td></tr><tr><td>PARKING BRAKE</td><td>1</td></tr><tr><td>BACK OVER PREVENTION: REARVIEW SYSTEM BRAKING</td><td>1</td></tr><tr><td>LATCHES/LOCKS/LINKAGES:DOORS:LATCH</td><td>1</td></tr><tr><td>ENGINE AND ENGINE COOLING</td><td>1</td></tr><tr><td>EXTERIOR LIGHTING:HEADLIGHTS</td><td>1</td></tr><tr><td>AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION:DRIVER</td><td>1</td></tr><tr><td>STEERING:STEERING CONTROL MODULE</td><td>1</td></tr></tbody></table></div>
+<h2 class="bg-primary text-white">Statistics</h2>
+<h3 class="bg-secondary text-white">Number of compliants: </h3><div>244</div><h3 class="bg-secondary text-white">Count of STATE:</h3><div>PA(24), CA(21), FL(17), IL(16), NC(14), NY(12), OH(12), TX(10), VA(9), GA(8), WV(8), IN(8), AZ(8), NH(8), SC(7), TN(5), NJ(5), IA(4), LA(4), NV(3), WA(3), MD(3), MS(3), AL(3), CO(3), AR(3), RI(3), WI(2), UT(2), MN(2), MO(2), KS(2), KY(2), CT(2), NM(2), HI(1), MA(1), ME(1), OK(1), </div><h3 class="bg-secondary text-white">Count of COMPDESC: </h3><div class='overflow-auto' style='height:320px;'><table class="table table-hover"><thead><tr><th>COMPDESC</th><th>Count</th></tr></thead><tbody><tr><td>POWER TRAIN</td><td>43</td></tr><tr><td>ELECTRICAL SYSTEM</td><td>30</td></tr><tr><td>UNKNOWN OR OTHER</td><td>20</td></tr><tr><td>ENGINE</td><td>17</td></tr><tr><td>AIR BAGS</td><td>15</td></tr><tr><td>SUSPENSION</td><td>13</td></tr><tr><td>FORWARD COLLISION AVOIDANCE: AUTOMATIC EMERGENCY BRAKING</td><td>13</td></tr><tr><td>SERVICE BRAKES</td><td>11</td></tr><tr><td>STEERING</td><td>10</td></tr><tr><td>EXTERIOR LIGHTING</td><td>10</td></tr><tr><td>FUEL/PROPULSION SYSTEM</td><td>9</td></tr><tr><td>FORWARD COLLISION AVOIDANCE: WARNINGS</td><td>7</td></tr><tr><td>VEHICLE SPEED CONTROL</td><td>6</td></tr><tr><td>BACK OVER PREVENTION: CAMERA SYSTEM</td><td>4</td></tr><tr><td>STRUCTURE:BODY</td><td>4</td></tr><tr><td>SEAT BELTS</td><td>3</td></tr><tr><td>SEATS</td><td>3</td></tr><tr><td>STRUCTURE:INTERIOR PANELS:DASHBOARD</td><td>3</td></tr><tr><td>FORWARD COLLISION AVOIDANCE: ADAPTIVE CRUISE CONTROL</td><td>2</td></tr><tr><td>VISIBILITY/WIPER</td><td>2</td></tr><tr><td>ELECTRICAL SYSTEM:12V/24V/48V BATTERY</td><td>1</td></tr><tr><td>SUSPENSION:SUBFRAME/MOUNTING BRACKET</td><td>1</td></tr><tr><td>POWER TRAIN:AUTOMATIC TRANSMISSION:TORQUE CONVERTER</td><td>1</td></tr><tr><td>BACK OVER PREVENTION</td><td>1</td></tr><tr><td>LATCHES/LOCKS/LINKAGES</td><td>1</td></tr><tr><td>ELECTRICAL SYSTEM:IGNITION:ANTI-THEFT:CONTROL MODULE</td><td>1</td></tr><tr><td>AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION</td><td>1</td></tr><tr><td>FUEL SYSTEM, GASOLINE</td><td>1</td></tr><tr><td>AIR BAGS:FRONTAL:DRIVER CLOCKSPRING/SPIRAL CASSETTE</td><td>1</td></tr><tr><td>SUSPENSION:MULTIPLE AXLE</td><td>1</td></tr><tr><td>FUEL SYSTEM, OTHER:DELIVERY:FUEL PUMP</td><td>1</td></tr><tr><td>VISIBILITY:DEFROSTER/DEFOGGER/HVAC SYSTEM</td><td>1</td></tr><tr><td>PARKING BRAKE</td><td>1</td></tr><tr><td>BACK OVER PREVENTION: REARVIEW SYSTEM BRAKING</td><td>1</td></tr><tr><td>LATCHES/LOCKS/LINKAGES:DOORS:LATCH</td><td>1</td></tr><tr><td>ENGINE AND ENGINE COOLING</td><td>1</td></tr><tr><td>EXTERIOR LIGHTING:HEADLIGHTS</td><td>1</td></tr><tr><td>AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION:DRIVER</td><td>1</td></tr><tr><td>STEERING:STEERING CONTROL MODULE</td><td>1</td></tr></tbody></table></div>
 </div>
 
-<h2>Files</h2>
+<h2 class="bg-primary text-white">Files</h2>
 
 <div id="content">
 <div class='overflow-auto' style='height:320px;'><table class="table"><tr><th></th><th>name</th><th>date</th><th>note</th></tr><tr><td></td><td><a href="..">.. (parent directory)</a></td><td><!-- date --></td><td><!-- note --></td></tr><tr><td>file</td><td><a href="20211130-NISSAN-1780715.html">20211130-NISSAN-1780715.html</a></td><td>November 30, 2021</td><td>NISSAN FRONTIER 2022, BACK OVER PREVENTION: CAMERA SYSTEM at Saint Petersburg FL<br/>I bought my 2022 Nissan Frontier ...</td></tr>
