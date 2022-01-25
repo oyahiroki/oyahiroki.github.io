@@ -48,6 +48,7 @@ div{
 $(document).ready(function() {
     $('#tbl_files').DataTable(
     {
+    	stateSave: true,
 		"columnDefs" : [
 			{"targets":[3],"visible":false,"searchable":true}
 		],
