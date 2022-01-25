@@ -46,16 +46,13 @@ div{
 
 <script>
 $(document).ready(function() {
-    $('#tbl_files').DataTable(
-    {
+    $('#tbl_files').DataTable({
     	stateSave: true,
-		"columnDefs" : [
-			{"targets":[3],"visible":false,"searchable":true}
-		],
-		"order": [[ 0, "desc" ]]
-	}
-    );
-} );
+		"columnDefs" : [{"targets":[3],"visible":false,"searchable":true}],
+		"order": [[ 0, "desc" ]],
+        "dom": '<fp>t',
+	});
+});
 </script>
 
 </head>
@@ -85,7 +82,7 @@ $(document).ready(function() {
 <h2 class="bg-primary text-white">Files</h2>
 
 <div id="content">
-<div class='overflow-auto' style='height:320px;'>
+<div class='overflow-auto' style='width:100%;'>
 <table id="tbl_files" class="table table-sm">
 <thead><tr><th>name</th><th>date</th><th>note</th><th>tags</th></tr></thead>
 <tbody>
